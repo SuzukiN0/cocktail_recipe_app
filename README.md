@@ -12,15 +12,18 @@
 - json_serializable: ^4.1.1
 - json_annotation: ^4.0.1
 
-### コード生成 (jsonをクラスに変換する際に使用)
+### コード生成 (json を data/api/entity/cocktail.dart に変換するために使用)
 - build_runner: ^1.10.9
 
-### テストモック
+### テスト用のモック
 - mockito: ^5.0.7
+
+### 静的解析
+- analyzer: ^1.5.0
+- effective_dart: ^1.0.0
 
 ## 今後
 - もう少しプロジェクトとして使えるように以下を導入する
-    - lint
     - ローカルDB
     - push通知
     - navigation

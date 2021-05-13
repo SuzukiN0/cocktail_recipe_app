@@ -52,6 +52,8 @@ dev_dependencies:
 
   mockito: ^5.0.7
 
+  # https://dart.dev/guides/language/effective-dart
+  # 静的解析に Effective Dart のルールを導入するためのパッケージ
   effective_dart: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
